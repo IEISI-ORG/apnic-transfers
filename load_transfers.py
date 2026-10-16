@@ -4,6 +4,7 @@ Load APNIC resource transfer log into a single SQLite database table.
 """
 
 import argparse
+import collections
 import os
 import sqlite3
 import sys
@@ -14,6 +15,19 @@ from pathlib import Path
 DEFAULT_INPUT_FILE = Path(__file__).parent / "transfer-all-apnic-latest"
 DEFAULT_DB_FILE = Path(__file__).parent / "transfers.db"
 DEFAULT_TABLE_NAME = "transfers"
+COLUMNS = (
+    "resource_type",
+    "resource",
+    "from_organisation",
+    "from_economy",
+    "from_rir",
+    "previous_delegation_date",
+    "to_organisation",
+    "to_economy",
+    "to_rir",
+    "transfer_date",
+    "transfer_type",
+)
 
 
 def create_table(conn: sqlite3.Connection, table_name: str, drop_existing: bool = True) -> None:
@@ -48,6 +62,12 @@ def create_table(conn: sqlite3.Connection, table_name: str, drop_existing: bool 
     conn.commit()
 
 
+def existing_rows(conn: sqlite3.Connection, table_name: str) -> "collections.Counter[tuple]":
+    """Count the rows already in the table, keyed by their data fields."""
+    cursor = conn.execute(f"SELECT {', '.join(COLUMNS)} FROM {table_name}")
+    return collections.Counter(tuple(row) for row in cursor)
+
+
 def parse_and_load(
     input_path: Path,
     db_path: Path,
@@ -58,6 +78,11 @@ def parse_and_load(
     """
     Parse the transfer log file and insert rows into the SQLite database.
     Returns the total number of inserted rows.
+
+    The log is a cumulative snapshot, so with drop_existing=False rows that are
+    already in the table (same values in all fields) are skipped rather than
+    inserted again. Upstream edits to old records, such as organisation renames,
+    still arrive as new rows next to the old ones; use a full load to pick them up.
     """
     if not input_path.exists():
         raise FileNotFoundError(f"Input file not found: {input_path}")
@@ -65,22 +90,13 @@ def parse_and_load(
     conn = sqlite3.connect(db_path)
     try:
         create_table(conn, table_name, drop_existing=drop_existing)
+        already_loaded = collections.Counter() if drop_existing else existing_rows(conn, table_name)
+        skipped = 0
 
-        insert_sql = f"""
-            INSERT INTO {table_name} (
-                resource_type,
-                resource,
-                from_organisation,
-                from_economy,
-                from_rir,
-                previous_delegation_date,
-                to_organisation,
-                to_economy,
-                to_rir,
-                transfer_date,
-                transfer_type
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        """
+        insert_sql = (
+            f"INSERT INTO {table_name} ({', '.join(COLUMNS)}) "
+            f"VALUES ({', '.join('?' * len(COLUMNS))})"
+        )
 
         total_rows = 0
         batch = []
@@ -106,7 +122,12 @@ def parse_and_load(
                     )
                     parts = (parts + [""] * 11)[:11]
 
-                batch.append(tuple(parts))
+                row = tuple(parts)
+                if already_loaded[row] > 0:
+                    already_loaded[row] -= 1
+                    skipped += 1
+                    continue
+                batch.append(row)
 
                 if len(batch) >= batch_size:
                     conn.executemany(insert_sql, batch)
@@ -120,6 +141,8 @@ def parse_and_load(
                 total_rows += len(batch)
                 batch.clear()
 
+        if not drop_existing:
+            print(f"Append: skipped {skipped:,} rows already in '{table_name}'.", file=sys.stderr)
         return total_rows
     finally:
         conn.close()
@@ -153,7 +176,7 @@ def main() -> None:
     parser.add_argument(
         "--append",
         action="store_true",
-        help="Append to existing table instead of recreating it",
+        help="Append to existing table instead of recreating it; rows already present are skipped",
     )
 
     args = parser.parse_args()
