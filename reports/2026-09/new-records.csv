@@ -1,0 +1,166 @@
+resource_type,resource,from_organisation,from_economy,from_rir,previous_delegation_date,to_organisation,to_economy,to_rir,transfer_date,transfer_type
+asn,152616,"Taiwan Network Information Center/LEYUN-NET",TW,APNIC,20240304,"Taiwan Network Information Center/BHIS",TW,APNIC,20260820,Unused
+asn,18040,"Taiwan Network Information Center/LEYUN",TW,APNIC,20011109,"Taiwan Network Information Center/AOTERNET",TW,APNIC,20260820,Unused
+ipv4,103.156.18.0/23,NIXI/PLUGIN,IN,APNIC,20200918,NIXI/INFYNIXD,IN,APNIC,20260820,Unused
+ipv4,103.106.57.0/24,"MD AIYN UDDIN",BD,APNIC,20171219,"Mizanur Rahman",BD,APNIC,20260821,Unused
+ipv4,203.25.23.0/24,"Matthew Trim",AU,APNIC,19960305,"Feenix Communications Limited",NZ,APNIC,20260821,HRT
+ipv4,103.137.202.0/23,"Barahi Internet Technologies Pvt. Ltd.",NP,APNIC,20190404,"Aone Network Pvt. Ltd",NP,APNIC,20260824,Unused
+ipv4,154.8.96.0/20,"Freecomm Hong Kong Limited",HK,APNIC,19920205,"Indonesia Network Information Center/IFORTE-ISP-ID",ID,APNIC,20260825,Unused
+ipv4,177.7.160.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Bharti Airtel Limited",IN,APNIC,20260826,Unused
+ipv4,177.7.224.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Bharti Airtel Limited",IN,APNIC,20260826,Unused
+ipv4,179.197.112.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Bharti Airtel Limited",IN,APNIC,20260826,Unused
+ipv4,179.197.128.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Bharti Airtel Limited",IN,APNIC,20260826,Unused
+ipv4,179.199.160.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Bharti Airtel Limited",IN,APNIC,20260826,Unused
+ipv4,179.252.0.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Bharti Airtel Limited",IN,APNIC,20260826,Unused
+ipv4,179.252.160.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Bharti Airtel Limited",IN,APNIC,20260826,Unused
+ipv4,179.254.224.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Bharti Airtel Limited",IN,APNIC,20260826,Unused
+ipv4,203.14.35.0/24,"DEPARTMENT OF FINANCE SERVICES AND INNOVATION",AU,APNIC,19950410,"Department of Customer Service",AU,APNIC,20260826,HRT
+ipv4,203.30.33.0/24,"NBCS Pty Ltd",AU,APNIC,19960724,"Reseaux IP Europeens Network Coordination Centre/ORG-EL547-RIPE",AP,RIPE,20260826,Unused
+ipv4,203.57.8.0/24,"DEPARTMENT OF FINANCE SERVICES AND INNOVATION",AU,APNIC,19970129,"Department of Customer Service",AU,APNIC,20260826,HRT
+ipv4,134.49.240.0/22,"American Registry for Internet Numbers/CTC-284",AP,ARIN,19890426,"Shenzhen lesuyun Network Technology Co., Ltd",CN,APNIC,20260827,Unused
+ipv4,172.255.214.0/23,"American Registry for Internet Numbers/LU",AP,ARIN,20130313,"LEASEWEB AUSTRALIA PTY LIMITED",AU,APNIC,20260827,Unused
+ipv4,89.126.240.0/21,"Reseaux IP Europeens Network Coordination Centre/ORG-ITL5-RIPE",AP,RIPE,20060308,"Naya Tel (Pvt.) Limited",PK,APNIC,20260827,Unused
+ipv4,103.50.8.0/22,"ONENET HK LTD",HK,APNIC,20150210,"Viking Telecom Limited",HK,APNIC,20260828,Unused
+ipv4,27.122.12.0/22,"Pacswitch Globe Telecom Limited",HK,APNIC,20101004,"NewMedia Express Pte Ltd",SG,APNIC,20260828,Unused
+ipv4,43.230.188.0/22,"ONENET HK LTD",HK,APNIC,20150210,"Viking Telecom Limited",HK,APNIC,20260828,Unused
+ipv4,103.54.148.0/22,"Mohammad Saydur Rahman Zia",BD,APNIC,20150408,"A.T.M. Maniruzzaman",BD,APNIC,20260901,Unused
+ipv4,172.255.212.0/23,"American Registry for Internet Numbers/LU",AP,ARIN,20130313,"LEASEWEB SINGAPORE PTE. LTD.",SG,APNIC,20260901,Unused
+ipv4,174.128.204.0/22,"American Registry for Internet Numbers/TOWER-20",AP,ARIN,20100107,"Indonesia Network Information Center/IDNIC-RNA-ID",ID,APNIC,20260901,Unused
+ipv4,79.109.0.0/24,"ZTNET CO., LTD",KH,APNIC,20071203,"ZT INFORMATION NETWORK CO., LIMITED",HK,APNIC,20260901,M&A
+ipv4,79.109.128.0/18,"ZTNET CO., LTD",KH,APNIC,20071203,"ZT INFORMATION NETWORK CO., LIMITED",HK,APNIC,20260901,M&A
+ipv4,79.109.16.0/20,"ZTNET CO., LTD",KH,APNIC,20071203,"ZT INFORMATION NETWORK CO., LIMITED",HK,APNIC,20260901,M&A
+ipv4,79.109.192.0/19,"ZTNET CO., LTD",KH,APNIC,20071203,"ZT INFORMATION NETWORK CO., LIMITED",HK,APNIC,20260901,M&A
+ipv4,79.109.2.0/23,"ZTNET CO., LTD",KH,APNIC,20071203,"ZT INFORMATION NETWORK CO., LIMITED",HK,APNIC,20260901,M&A
+ipv4,79.109.32.0/19,"ZTNET CO., LTD",KH,APNIC,20071203,"ZT INFORMATION NETWORK CO., LIMITED",HK,APNIC,20260901,M&A
+ipv4,79.109.4.0/22,"ZTNET CO., LTD",KH,APNIC,20071203,"ZT INFORMATION NETWORK CO., LIMITED",HK,APNIC,20260901,M&A
+ipv4,79.109.64.0/18,"ZTNET CO., LTD",KH,APNIC,20071203,"ZT INFORMATION NETWORK CO., LIMITED",HK,APNIC,20260901,M&A
+ipv4,79.109.8.0/21,"ZTNET CO., LTD",KH,APNIC,20071203,"ZT INFORMATION NETWORK CO., LIMITED",HK,APNIC,20260901,M&A
+ipv4,85.155.16.0/20,"Reseaux IP Europeens Network Coordination Centre/ORG-OA4-RIPE",AP,RIPE,20041105,"Vietnam Internet Network Information Center (VNNIC)/FPTCLOUD-VN",VN,APNIC,20260901,Unused
+asn,134429,"Evolution Networks Limited",NZ,APNIC,20150727,"GREENFIELDS INTERNET (2019) LTD",NZ,APNIC,20260902,M&A
+ipv4,103.193.38.0/23,"Evolution Networks Limited",NZ,APNIC,20150728,"GREENFIELDS INTERNET (2019) LTD",NZ,APNIC,20260902,M&A
+ipv4,103.85.140.0/22,NIXI/VMDN,IN,APNIC,20170210,NIXI/MAGNUS-TELELINKS,IN,APNIC,20260902,Unused
+ipv4,103.90.184.0/23,"Evolution Networks Limited",NZ,APNIC,20170418,"GREENFIELDS INTERNET (2019) LTD",NZ,APNIC,20260902,M&A
+ipv4,202.125.88.0/23,"Evolution Networks Limited",NZ,APNIC,20190508,"GREENFIELDS INTERNET (2019) LTD",NZ,APNIC,20260902,M&A
+ipv4,202.146.48.0/20,"Indonesia Network Information Center/PRIMENET-ID",ID,APNIC,19991006,"Indonesia Network Information Center/ICONPLN-ID",ID,APNIC,20260902,Unused
+ipv6,2402:a780::/32,"Evolution Networks Limited",NZ,APNIC,20150728,"GREENFIELDS INTERNET (2019) LTD",NZ,APNIC,20260902,M&A
+ipv4,103.116.170.0/24,"TANGO TECHNOLOGY PTY LIMITED",AU,APNIC,20180605,"TasmaNet Pty Ltd",AU,APNIC,20260903,Unused
+ipv4,103.135.200.0/22,NIXI/SMARTC,IN,APNIC,20190228,NIXI/IMCL-IN,IN,APNIC,20260903,Unused
+ipv4,166.75.0.0/16,"Latin America and Caribbean Network Information Centre/CL-CTCS11-LACNIC",AP,LACNIC,19931102,"POWER LINE (HK) CO., LIMITED",HK,APNIC,20260903,Unused
+ipv4,191.124.0.0/16,"Latin America and Caribbean Network Information Centre/CL-TMCS-LACNIC",AP,LACNIC,20131009,"FASTMOS CO., LIMITED",HK,APNIC,20260903,Unused
+ipv4,80.43.0.0/18,"Reseaux IP Europeens Network Coordination Centre/ORG-OTIS1-RIPE",AP,RIPE,20011123,"CV. Rumahweb Indonesia",ID,APNIC,20260903,Unused
+ipv4,80.47.64.0/19,"Reseaux IP Europeens Network Coordination Centre/ORG-OTIS1-RIPE",AP,RIPE,20011123,"Aibo Link Co., Ltd.",JP,APNIC,20260903,Unused
+ipv4,103.7.64.0/22,NIXI/NGBPS-IN,IN,APNIC,20120316,NIXI/DYANSA,IN,APNIC,20260906,Unused
+asn,139748,"Hawkes Bay District Health Board",NZ,APNIC,20191024,"Health New Zealand",NZ,APNIC,20260908,M&A
+ipv4,103.144.125.0/24,"Hawkes Bay District Health Board",NZ,APNIC,20191024,"Health New Zealand",NZ,APNIC,20260908,M&A
+ipv4,103.207.78.0/23,"LIZARD NETWORKS 2015 LIMITED",NZ,APNIC,20160125,"ASI Solutions Limited",NZ,APNIC,20260908,Unused
+ipv6,2001:df1:c280::/48,"Hawkes Bay District Health Board",NZ,APNIC,20191024,"Health New Zealand",NZ,APNIC,20260908,M&A
+asn,45692,"DEPARTMENT OF FINANCE SERVICES AND INNOVATION",AU,APNIC,20090403,"Department of Customer Service",AU,APNIC,20260909,Unused
+ipv4,202.68.120.0/22,"VOCUS PTY LTD",AU,APNIC,20110406,"American Registry for Internet Numbers/ZI-103",AP,ARIN,20260909,Unused
+ipv4,103.171.104.0/23,"TT Virtual Technology Sdn Bhd",MY,APNIC,20210811,"Metro Lightspeed Sdn Bhd",MY,APNIC,20260910,Unused
+ipv4,179.239.0.0/16,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250220,"Simba Telecom Pte Ltd",SG,APNIC,20260914,Unused
+ipv4,103.110.126.0/24,"Md. Monirul Islam",BD,APNIC,20180305,"American Registry for Internet Numbers/LMG-124",AP,ARIN,20260915,Unused
+ipv4,169.155.112.0/21,"American Registry for Internet Numbers/SUPERV",AP,ARIN,19950103,"Crewish Consultancy Limited",HK,APNIC,20260915,Unused
+ipv4,187.52.224.0/19,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,187.53.160.0/19,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,187.54.224.0/19,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,187.55.128.0/19,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,187.55.64.0/19,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,187.7.32.0/19,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,187.78.128.0/19,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,187.79.128.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,189.10.144.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,189.10.208.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,189.105.16.0/20,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,189.12.0.0/19,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,189.31.224.0/19,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+ipv4,189.72.96.0/19,"American Registry for Internet Numbers/GCSA-20",AP,ARIN,20250313,"Jazzworld Pakistan Limited",PK,APNIC,20260915,Unused
+asn,138524,"Triple T Broadband Public Company Limited",TH,APNIC,20210727,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+asn,38831,"NINE ENTERTAINMENT CO. PTY LTD",AU,APNIC,20071204,"TAPT MEDIA PTY LTD",AU,APNIC,20260916,M&A
+asn,45758,"Triple T Broadband Public Company Limited",TH,APNIC,20090424,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+asn,55808,"Triple T Broadband Public Company Limited",TH,APNIC,20101012,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+asn,6662,"Vivi23 Co.,Ltd",TH,APNIC,19960605,"HENGDA NETWORK LIMITED",HK,APNIC,20260916,Unused
+ipv4,103.129.112.0/23,NIXI/CONNECT7,IN,APNIC,20180905,NIXI/SPECTRACLOUD,IN,APNIC,20260916,Unused
+ipv4,103.16.204.0/22,"Triple T Broadband Public Company Limited",TH,APNIC,20130213,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,103.170.130.0/23,"Triple T Broadband Public Company Limited",TH,APNIC,20210727,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,110.164.0.0/17,"Triple T Broadband Public Company Limited",TH,APNIC,20090423,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,110.164.128.0/17,"Triple T Broadband Public Company Limited",TH,APNIC,20090423,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,14.207.0.0/16,"Triple T Broadband Public Company Limited",TH,APNIC,20100920,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,171.4.0.0/14,"Triple T Broadband Public Company Limited",TH,APNIC,20110307,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,180.183.0.0/16,"Triple T Broadband Public Company Limited",TH,APNIC,20090916,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,183.88.0.0/15,"Triple T Broadband Public Company Limited",TH,APNIC,20091113,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,223.204.0.0/14,"Triple T Broadband Public Company Limited",TH,APNIC,20100712,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,27.130.0.0/16,"Triple T Broadband Public Company Limited",TH,APNIC,20100419,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,43.245.144.0/22,"Triple T Broadband Public Company Limited",TH,APNIC,20140603,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv4,49.48.0.0/15,"Triple T Broadband Public Company Limited",TH,APNIC,20100920,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv6,2403:6200::/32,"Triple T Broadband Public Company Limited",TH,APNIC,20100714,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+ipv6,2407:b1c0::/32,"Triple T Broadband Public Company Limited",TH,APNIC,20210727,"Advanced Wireless Network Company Limited",TH,APNIC,20260916,M&A
+asn,57952,"Reseaux IP Europeens Network Coordination Centre/ORG-nL175-RIPE",AP,RIPE,20130319,"Vivi23 Co.,Ltd",TH,APNIC,20260918,Unused
+ipv4,103.116.171.0/24,"TANGO TECHNOLOGY PTY LIMITED",AU,APNIC,20180605,"onPlatinum ICT Pty Ltd",AU,APNIC,20260918,M&A
+ipv4,103.159.132.0/23,"Furcop Blockchain PLT",MY,APNIC,20201201,"Furcop Innovation Sdn Bhd",MY,APNIC,20260918,Unused
+ipv4,103.227.234.0/23,"TANGO TECHNOLOGY PTY LIMITED",AU,APNIC,20140319,"onPlatinum ICT Pty Ltd",AU,APNIC,20260918,M&A
+ipv4,103.76.32.0/22,"Digicel Carrier Services (Pacific) Limited",HK,APNIC,20160927,"Digicel Pacific Ltd",AP,APNIC,20260918,Unused
+ipv4,139.190.64.0/21,"Orient Express LDI (Private) Limited",PK,APNIC,20110310,"China Telecom Global Limited",HK,APNIC,20260918,Unused
+ipv4,203.173.80.0/21,"Foresightwave INC.",JP,APNIC,20060421,"READYIDC CO., LTD.",TH,APNIC,20260918,Unused
+ipv4,223.29.228.0/24,"Orient Express LDI (Private) Limited",PK,APNIC,20100903,"China Telecom Global Limited",HK,APNIC,20260918,Unused
+ipv4,103.169.238.0/23,"Indonesia Network Information Center/IDNIC-FIT-ID",ID,APNIC,20210716,"Indonesia Network Information Center/TRANSNET-ID",ID,APNIC,20260922,M&A
+ipv4,74.122.26.0/23,"Reseaux IP Europeens Network Coordination Centre/ORG-XJNC1-RIPE",AP,RIPE,20190712,"Hospital Authority",HK,APNIC,20260922,Unused
+asn,38906,"Te Pukenga - New Zealand Institute of Skills and Technology",NZ,APNIC,20080220,"Otago Polytechnic",NZ,APNIC,20260923,M&A
+ipv4,103.136.16.0/22,"Indonesia Network Information Center/IDNIC-SINERGY-ID",ID,APNIC,20190304,"Indonesia Network Information Center/IDNIC-PTAMI-ID",ID,APNIC,20260923,Unused
+ipv4,202.49.0.0/21,"Te Pukenga - New Zealand Institute of Skills and Technology",NZ,APNIC,19980828,"Otago Polytechnic",NZ,APNIC,20260923,M&A
+ipv4,103.111.44.0/22,NIXI/NETZI,IN,APNIC,20180313,NIXI/KVBPL,IN,APNIC,20260924,Unused
+ipv4,27.0.88.0/22,"VOCUS PTY LTD",AU,APNIC,20100316,"COGETEL LTD.",KH,APNIC,20260924,Unused
+ipv4,27.0.92.0/22,"VOCUS PTY LTD",AU,APNIC,20100316,"ChangLian Network Technology Co., Limited",HK,APNIC,20260924,Unused
+asn,136354,NIXI/NETZI,IN,APNIC,20170216,NIXI/KVBPL,IN,APNIC,20260925,Unused
+ipv4,103.82.248.0/22,"PlayVillage Co.,Ltd.",TH,APNIC,20170109,"Dot Enterprise Co.,Ltd.",TH,APNIC,20260925,Unused
+asn,132061,"True Move Company Limited",TH,APNIC,20111026,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20260928,M&A
+asn,132208,NIXI/NGBPS-IN,IN,APNIC,20120316,NIXI/DYANSA,IN,APNIC,20260928,Unused
+asn,132618,"True Move Company Limited",TH,APNIC,20130221,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20260928,M&A
+asn,152281,"Korea Internet & Security Agency (KISA)/KRNIC000805",KR,APNIC,20231229,"Korea Internet & Security Agency (KISA)/KRNIC000811",KR,APNIC,20260928,Unused
+asn,55490,"True Move Company Limited",TH,APNIC,20100420,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20260928,M&A
+ipv4,103.146.68.0/23,"Md Sarrowar Hossain",BD,APNIC,20191209,"InterCloud ltd",BD,APNIC,20260928,Unused
+ipv4,180.214.192.0/19,"True Move Company Limited",TH,APNIC,20091006,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20260928,M&A
+ipv4,223.24.0.0/16,"True Move Company Limited",TH,APNIC,20100810,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20260928,M&A
+ipv4,27.55.0.0/16,"True Move Company Limited",TH,APNIC,20100319,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20260928,M&A
+ipv4,49.237.0.0/16,"True Move Company Limited",TH,APNIC,20101206,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20260928,M&A
+ipv6,2402:2700::/32,"True Move Company Limited",TH,APNIC,20111007,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20260928,M&A
+asn,7469,"SOUTHEAST ASIA TELECOM(SG) PTE. LTD.",SG,APNIC,20260309,"Reseaux IP Europeens Network Coordination Centre/ORG-DI100-RIPE",AP,RIPE,20260929,Unused
+ipv4,103.83.200.0/22,"HI INTERNET COMPANY LIMITED",TH,APNIC,20170119,"Horizon Cable Communication Co.,Ltd.",TH,APNIC,20260929,Unused
+ipv4,203.89.116.0/22,"HI INTERNET COMPANY LIMITED",TH,APNIC,20171221,"Horizon Cable Communication Co.,Ltd.",TH,APNIC,20260929,Unused
+ipv4,220.145.128.0/18,"Japan Network Information Center/GMO-BRS",JP,APNIC,20021128,"Japan Network Information Center/kir",JP,APNIC,20260929,Unused
+asn,5111,"American Registry for Internet Numbers/CIL-6",AP,ARIN,19950706,"Aibo Link Co., Ltd.",JP,APNIC,20260930,Unused
+ipv4,103.111.90.0/23,"Md. Habibur Rahman",BD,APNIC,20180315,"Wahiduzzaman Shanto",BD,APNIC,20260930,Unused
+ipv4,218.37.128.0/22,"Korea Internet & Security Agency (KISA)/KRNIC000000",KR,APNIC,20020722,"Korea Internet & Security Agency (KISA)/KRNIC000100",KR,APNIC,20260930,Unused
+ipv4,220.39.48.0/20,"Japan Network Information Center/IPR",JP,APNIC,20020412,"Japan Network Information Center/SBTISCOPE",JP,APNIC,20260930,Unused
+ipv4,103.30.240.0/22,"Rebyc Inc.",JP,APNIC,20121115,"Spaceman Co. Ltd.",JP,APNIC,20261001,Unused
+ipv4,157.250.176.0/20,"Rebyc Inc.",JP,APNIC,19920207,"Spaceman Co. Ltd.",JP,APNIC,20261001,Unused
+asn,24504,"ComputerLand Communication System Ltd.",NP,APNIC,20051205,"Silverlining Private Limited",NP,APNIC,20261002,M&A
+ipv4,150.129.188.0/22,"Indonesia Network Information Center/BTELNET-ID",ID,APNIC,20140630,"Indonesia Network Information Center/tds-id",ID,APNIC,20261002,Unused
+ipv4,202.51.0.0/22,"ComputerLand Communication System Ltd.",NP,APNIC,19961104,"Silverlining Private Limited",NP,APNIC,20261002,M&A
+ipv6,2401:b20::/32,"ComputerLand Communication System Ltd.",NP,APNIC,20230614,"Silverlining Private Limited",NP,APNIC,20261002,M&A
+ipv4,203.18.106.0/24,"VOCUS PTY LTD",AU,APNIC,19950810,"Reseaux IP Europeens Network Coordination Centre/ORG-CL858-RIPE",AP,RIPE,20261006,Unused
+ipv4,209.216.48.0/20,"American Registry for Internet Numbers/WCP32",AP,ARIN,19980320,"Leapswitch Networks, Inc",AP,APNIC,20261006,Unused
+asn,133914,"Coloured Lines Australia Pty Ltd",AU,APNIC,20150111,"Orro Pty Ltd",AU,APNIC,20261007,M&A
+ipv4,103.160.92.0/23,"Mohammad Julhas Uddin",BD,APNIC,20201215,"Axentec PLC.",BD,APNIC,20261007,Unused
+ipv4,103.47.234.0/23,"Coloured Lines Australia Pty Ltd",AU,APNIC,20150112,"Orro Pty Ltd",AU,APNIC,20261007,M&A
+ipv4,147.185.28.0/22,"American Registry for Internet Numbers/THETIM-2",AP,ARIN,19910705,"Sipradius Technology Pte. Ltd.",SG,APNIC,20261007,Unused
+asn,133543,"DTAC TriNet Co.,Ltd.",TH,APNIC,20140624,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20261009,M&A
+asn,9587,"DTAC TriNet Co.,Ltd.",TH,APNIC,20090121,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20261009,M&A
+ipv4,103.196.220.0/22,"Jainiti Prasad",IN,APNIC,20150929,"POWERNET TELECOM PRIVATE LIMITED",IN,APNIC,20261009,M&A
+ipv4,103.26.20.0/22,"DTAC TriNet Co.,Ltd.",TH,APNIC,20130617,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20261009,M&A
+ipv4,124.40.224.0/20,"DTAC TriNet Co.,Ltd.",TH,APNIC,20090121,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20261009,M&A
+ipv4,45.127.232.0/22,"Jainiti Prasad",IN,APNIC,20150929,"POWERNET TELECOM PRIVATE LIMITED",IN,APNIC,20261009,M&A
+ipv6,2403:67c0::/32,"Jainiti Prasad",IN,APNIC,20180817,"POWERNET TELECOM PRIVATE LIMITED",IN,APNIC,20261009,M&A
+ipv6,2407:ed00::/32,"DTAC TriNet Co.,Ltd.",TH,APNIC,20130913,"True Move H Universal Communication Co., Ltd.",TH,APNIC,20261009,M&A
+asn,152461,"United Information Highway Co.,Ltd.",TH,APNIC,20240205,"Department of Lands",TH,APNIC,20261010,Unused
+asn,140590,"DGT Services Singapore PTE Ltd.",SG,APNIC,20200421,"Deloitte Technology Limited",AP,APNIC,20261012,M&A
+ipv4,103.131.236.0/23,"Indonesia Network Information Center/DUMAIMANDIRINET-ID",ID,APNIC,20181025,"Indonesia Network Information Center/IDNIC-FASTLINKONEKSI-ID",ID,APNIC,20261012,Unused
+ipv6,2406:740::/32,"DGT Services Singapore PTE Ltd.",SG,APNIC,20200421,"Deloitte Technology Limited",AP,APNIC,20261012,M&A
+ipv4,116.193.158.0/24,"Pacswitch Globe Telecom Limited",HK,APNIC,20110130,"Reseaux IP Europeens Network Coordination Centre/ORG-ASL63-RIPE",AP,RIPE,20261013,Unused
+ipv4,195.10.240.0/22,"Reseaux IP Europeens Network Coordination Centre/ORG-GA22-RIPE",AP,RIPE,19971114,"RAINBOW LINKS LIMITED",HK,APNIC,20261013,Unused
+ipv4,202.170.75.0/24,"Magicnet LLC",MN,APNIC,19990609,"Reseaux IP Europeens Network Coordination Centre/ORG-PU41-RIPE",AP,RIPE,20261013,Unused
+ipv4,203.27.219.0/24,"Goulburn Ovens Institute of TAFE",AU,APNIC,19960530,"Wodonga Institute of TAFE",AU,APNIC,20261013,HRT
+ipv4,203.29.244.0/22,"Goulburn Ovens Institute of TAFE",AU,APNIC,19960723,"Wodonga Institute of TAFE",AU,APNIC,20261013,HRT
+ipv4,123.100.242.0/24,"Iconz-Webvisions Pte. Ltd.",SG,APNIC,20061110,"Reseaux IP Europeens Network Coordination Centre/ORG-FIG15-RIPE",AP,RIPE,20261014,Unused
+ipv4,153.79.160.0/21,"American Registry for Internet Numbers/NCR-Z",AP,ARIN,19910923,"Indonesia Network Information Center/IDOLA-ID",ID,APNIC,20261014,Unused
+ipv4,86.106.124.0/22,"Reseaux IP Europeens Network Coordination Centre/ORG-DCSS4-RIPE",AP,RIPE,20050418,"RAINBOW LINKS LIMITED",HK,APNIC,20261014,Unused
+ipv4,103.41.120.0/22,"Indonesia Network Information Center/IDNIC-MMP-ID",ID,APNIC,20141020,"Indonesia Network Information Center/NETCITI-ID",ID,APNIC,20261015,Unused

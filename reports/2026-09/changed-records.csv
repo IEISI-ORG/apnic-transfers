@@ -1,0 +1,66 @@
+resource_type,resource,transfer_date,transfer_type,old_from_organisation,new_from_organisation,old_to_organisation,new_to_organisation,old_from_economy,new_from_economy,old_to_economy,new_to_economy,old_from_rir,new_from_rir,old_to_rir,new_to_rir
+ipv4,202.86.216.0/21,20151006,Unused,"Asiatel Network Ltd.","Asiatel Network Ltd.","Race Online Limited","Race Online Ltd.",BD,BD,BD,BD,APNIC,APNIC,APNIC,APNIC
+asn,38212,20151006,Unused,"Asiatel Network Ltd.","Asiatel Network Ltd.","Race Online Limited","Race Online Ltd.",BD,BD,BD,BD,APNIC,APNIC,APNIC,APNIC
+ipv4,61.7.0.0/17,20180605,M&A,"Sagashimbun Co., Ltd.","Sagashimbun Co., Ltd.","NetComBB Co.,Ltd.","PUERTO Co., Ltd.",JP,JP,JP,JP,APNIC,APNIC,APNIC,APNIC
+ipv4,103.56.12.0/22,20200519,M&A,"Elypsys Pty Ltd","Elypsys Pty Ltd","Vine Networks Pty Ltd","DIVERSE NETWORKS GROUP PTY LTD",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,134160,20200519,M&A,"Elypsys Pty Ltd","Elypsys Pty Ltd","Vine Networks Pty Ltd","DIVERSE NETWORKS GROUP PTY LTD",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv6,2402:4880::/32,20200519,M&A,"Elypsys Pty Ltd","Elypsys Pty Ltd","Vine Networks Pty Ltd","DIVERSE NETWORKS GROUP PTY LTD",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,45.115.232.0/22,20200519,M&A,"Elypsys Pty Ltd","Elypsys Pty Ltd","Vine Networks Pty Ltd","DIVERSE NETWORKS GROUP PTY LTD",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,103.57.152.0/22,20200716,M&A,"WARID TELECOM","WARID TELECOM","Mobilink GSM, Pakistan Mobile Communication Ltd.","Jazzworld Pakistan Limited",PK,PK,PK,PK,APNIC,APNIC,APNIC,APNIC
+ipv4,203.124.24.0/21,20200716,M&A,"WARID TELECOM","WARID TELECOM","Mobilink GSM, Pakistan Mobile Communication Ltd.","Jazzworld Pakistan Limited",PK,PK,PK,PK,APNIC,APNIC,APNIC,APNIC
+ipv6,2407:9c00::/32,20200716,M&A,"WARID TELECOM","WARID TELECOM","Mobilink GSM, Pakistan Mobile Communication Ltd.","Jazzworld Pakistan Limited",PK,PK,PK,PK,APNIC,APNIC,APNIC,APNIC
+asn,38196,20200716,M&A,"WARID TELECOM","WARID TELECOM","Mobilink GSM, Pakistan Mobile Communication Ltd.","Jazzworld Pakistan Limited",PK,PK,PK,PK,APNIC,APNIC,APNIC,APNIC
+ipv4,45.117.88.0/22,20200716,M&A,"WARID TELECOM","WARID TELECOM","Mobilink GSM, Pakistan Mobile Communication Ltd.","Jazzworld Pakistan Limited",PK,PK,PK,PK,APNIC,APNIC,APNIC,APNIC
+asn,45127,20200716,M&A,"WARID TELECOM","WARID TELECOM","Mobilink GSM, Pakistan Mobile Communication Ltd.","Jazzworld Pakistan Limited",PK,PK,PK,PK,APNIC,APNIC,APNIC,APNIC
+ipv4,27.54.144.0/22,20210222,Unused,"Tanvir Shakil Joy","Tanvir Shakil Joy","Race Online Limited","Race Online Ltd.",BD,BD,BD,BD,APNIC,APNIC,APNIC,APNIC
+ipv4,27.54.144.0/22,20210707,Unused,"Race Online Limited","Race Online Ltd.","Earth Telecommunication ( pvt ) Limited","Earth Telecommunication ( pvt ) Limited",BD,BD,BD,BD,APNIC,APNIC,APNIC,APNIC
+ipv4,202.86.216.0/21,20210712,Unused,"Race Online Limited","Race Online Ltd.","Earth Telecommunication ( pvt ) Limited","Earth Telecommunication ( pvt ) Limited",BD,BD,BD,BD,APNIC,APNIC,APNIC,APNIC
+ipv4,193.82.0.0/19,20220525,Unused,"Reseaux IP Europeens Network Coordination Centre/ORG-CI9-RIPE","Reseaux IP Europeens Network Coordination Centre/ORG-CI9-RIPE","Colt Technology Services Co., Ltd.","Colt Technology Services GK",AP,AP,JP,JP,RIPE,RIPE,APNIC,APNIC
+ipv4,194.223.140.0/22,20220525,Unused,"Reseaux IP Europeens Network Coordination Centre/ORG-CI9-RIPE","Reseaux IP Europeens Network Coordination Centre/ORG-CI9-RIPE","Colt Technology Services Co., Ltd.","Colt Technology Services GK",AP,AP,JP,JP,RIPE,RIPE,APNIC,APNIC
+ipv4,194.223.144.0/20,20220525,Unused,"Reseaux IP Europeens Network Coordination Centre/ORG-CI9-RIPE","Reseaux IP Europeens Network Coordination Centre/ORG-CI9-RIPE","Colt Technology Services Co., Ltd.","Colt Technology Services GK",AP,AP,JP,JP,RIPE,RIPE,APNIC,APNIC
+ipv4,27.110.0.0/20,20220525,Unused,"Reseaux IP Europeens Network Coordination Centre/ORG-CI9-RIPE","Reseaux IP Europeens Network Coordination Centre/ORG-CI9-RIPE","Colt Technology Services Co., Ltd.","Colt Technology Services GK",AP,AP,JP,JP,RIPE,RIPE,APNIC,APNIC
+ipv4,27.110.16.0/22,20220525,Unused,"Reseaux IP Europeens Network Coordination Centre/ORG-CI9-RIPE","Reseaux IP Europeens Network Coordination Centre/ORG-CI9-RIPE","Colt Technology Services Co., Ltd.","Colt Technology Services GK",AP,AP,JP,JP,RIPE,RIPE,APNIC,APNIC
+asn,142140,20220929,Unused,"Swiftel Pty Ltd","Swiftel Pty Ltd","NEXON PTY LTD","ACN 625 635 789 PTY LTD",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,142141,20220929,Unused,"Swiftel Pty Ltd","Swiftel Pty Ltd","NEXON PTY LTD","ACN 625 635 789 PTY LTD",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,18054,20220929,Unused,"Swiftel Pty Ltd","Swiftel Pty Ltd","NEXON PTY LTD","ACN 625 635 789 PTY LTD",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,24452,20220929,Unused,"Swiftel Pty Ltd","Swiftel Pty Ltd","NEXON PTY LTD","ACN 625 635 789 PTY LTD",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,7492,20220929,Unused,"Swiftel Pty Ltd","Swiftel Pty Ltd","NEXON PTY LTD","ACN 625 635 789 PTY LTD",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,148.109.0.0/16,20221201,Unused,"American Registry for Internet Numbers/RNAL-7","American Registry for Internet Numbers/RNAL-7","Colt Technology Services Co., Ltd.","Colt Technology Services GK",AP,AP,JP,JP,ARIN,ARIN,APNIC,APNIC
+ipv4,103.143.148.0/24,20250424,Unused,"Josim Uddin","Josim Uddin","Race Online Limited","Race Online Ltd.",BD,BD,BD,BD,APNIC,APNIC,APNIC,APNIC
+ipv4,103.197.232.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,103.251.172.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,103.31.88.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,103.47.0.0/24,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,103.55.132.0/24,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,103.55.134.0/23,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,103.61.128.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,103.79.172.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,103.79.4.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,103.98.86.0/23,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,120.29.240.0/21,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,132836,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,133029,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,133407,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,133736,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,134720,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,135888,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,144.48.232.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,160.202.140.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,202.179.144.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,203.166.216.0/24,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,203.189.124.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,221.120.164.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv6,2400:1240::/32,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv6,2401:8140::/32,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv6,2402:4c80::/32,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv6,2403:780::/32,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv6,2407:1e00::/32,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,43.245.132.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,45158,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,56133,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,59.153.8.0/22,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,63926,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+asn,64098,20250818,M&A,"Field Solutions Group Pty Ltd","Field Solutions Group Pty Ltd","SYNTEL PTY LTD","TasmaNet Pty Ltd",AU,AU,AU,AU,APNIC,APNIC,APNIC,APNIC
+ipv4,208.122.28.0/23,20260219,Unused,"American Registry for Internet Numbers/IC-1425","American Registry for Internet Numbers/IC-1425","DAUN PENH DATA CENTER CO. LTD.","DAUN PENH DATA CENTER CO., LTD.",AP,AP,KH,KH,ARIN,ARIN,APNIC,APNIC
+asn,18054,20260413,Unused,"NEXON PTY LTD","ACN 625 635 789 PTY LTD","H Pop Technology Limited","H Pop Technology Limited",AU,AU,HK,HK,APNIC,APNIC,APNIC,APNIC
+asn,24452,20260414,Unused,"NEXON PTY LTD","ACN 625 635 789 PTY LTD","Reseaux IP Europeens Network Coordination Centre/ORG-EMS18-RIPE","Reseaux IP Europeens Network Coordination Centre/ORG-EMS18-RIPE",AU,AU,AP,AP,APNIC,APNIC,RIPE,RIPE

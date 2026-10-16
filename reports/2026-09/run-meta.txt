@@ -1,0 +1,12 @@
+generated_at: 2026-10-16T10:12:14+10:00
+target_month: 2026-09
+source_url: https://ftp.apnic.net/transfers-all/apnic/transfer-all-apnic-latest
+source_bytes: 2511768
+source_sha256: 2544929a6e5b69e4
+previous_snapshot: yes
+new_records: 165
+removed_records: 0
+changed_records: 65
+records_asn: 3608 (latest 20261012)
+records_ipv4: 16767 (latest 20261015)
+records_ipv6: 707 (latest 20261012)
