@@ -1,0 +1,16 @@
+# Do not upload ...
+
+transfer-all-apnic-latest
+transfers.db
+
+# NRO-format logs from all five RIRs and the unified db (see `make fetch-nro`).
+data/
+
+
+# Monthly automation stays local: agent prompt, runner, cache, secrets.
+# reports/ is tracked.
+.claude/
+scripts/
+.cache/
+.env
+secrets.yaml
