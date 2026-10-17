@@ -853,6 +853,11 @@ def main() -> None:
         help="Filter by transfer type (Unused, M&A, HRT)",
     )
     parser.add_argument(
+        "--market-only",
+        action="store_true",
+        help="Market transfers only: shortcut for --type Unused (excludes M&A and HRT)",
+    )
+    parser.add_argument(
         "--flow",
         type=str,
         choices=["intra", "inbound", "outbound"],
@@ -907,6 +912,11 @@ def main() -> None:
     )
 
     args = parser.parse_args()
+
+    if args.market_only:
+        if args.transfer_type and args.transfer_type.lower() != "unused":
+            parser.error("--market-only conflicts with --type " + args.transfer_type)
+        args.transfer_type = "Unused"
 
     if not args.db.exists():
         print(
@@ -990,6 +1000,9 @@ def main() -> None:
         else:
             # table or markdown
             output_blocks = []
+            if args.market_only:
+                label = "Filter: market transfers only (type = Unused; M&A and HRT excluded)"
+                output_blocks.append(f"_{label}_\n" if args.format == "markdown" else label + "\n")
             if not args.summary_only:
                 if args.format == "markdown":
                     output_blocks.append("## APNIC IPv4 Monthly Transfer Statistics\n")

@@ -172,6 +172,7 @@ python3 report_monthly_ipv4.py --start-month 2023-01 --end-month 2024-12
 # Filter by transfer policy type (Unused / Market, M&A, HRT)
 python3 report_monthly_ipv4.py --type Unused
 python3 report_monthly_ipv4.py --type M&A
+python3 report_monthly_ipv4.py --market-only   # same as --type Unused, labelled in output
 
 # Filter by RIR flow (intra, inbound, outbound)
 python3 report_monthly_ipv4.py --flow intra
@@ -240,6 +241,7 @@ python3 serve.py --port 8080 --no-browser
 | `--end-month` | `str` | `None` | End month filter (`YYYY-MM`) |
 | `--last-months` | `int` | `None` | Show only the most recent N months |
 | `--type` | `choice` | `None` | Transfer type filter (`Unused`, `M&A`, `HRT`) |
+| `--market-only` | `flag` | `False` | Market transfers only (shortcut for `--type Unused`) |
 | `--flow` | `choice` | `None` | RIR flow filter (`intra`, `inbound`, `outbound`) |
 | `-e, --economy` | `str` | `None` | Filter by 2-letter economy code (e.g. `AU`) |
 | `-f, --format` | `choice` | `table` | Output format (`table`, `markdown`, `csv`, `json`) |
