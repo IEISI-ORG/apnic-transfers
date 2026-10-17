@@ -4,6 +4,13 @@
  */
 
 // Application State
+// Escape text for insertion into innerHTML templates (values come from third-party registry data).
+function esc(value) {
+  return String(value ?? '').replace(/[&<>"']/g, ch => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]
+  ));
+}
+
 const state = {
   db: null,
   SQL: null,
@@ -1055,7 +1062,7 @@ function renderIPv4Table(data) {
 
     tbody.innerHTML = data.map(d => `
       <tr>
-        <td><strong>${d.month}</strong></td>
+        <td><strong>${esc(d.month)}</strong></td>
         <td class="text-right">${d.transfers.toLocaleString()}</td>
         <td class="text-right">${d.total_ips.toLocaleString()}</td>
         <td class="text-right">${Math.round(d.slash24_equiv).toLocaleString()}</td>
@@ -1083,7 +1090,7 @@ function renderIPv4Table(data) {
 
     tbody.innerHTML = data.map(d => `
       <tr>
-        <td><strong>${d.month}</strong></td>
+        <td><strong>${esc(d.month)}</strong></td>
         <td class="text-right">${d.transfers.toLocaleString()}</td>
         <td class="text-right">${d.total_ips.toLocaleString()}</td>
         <td class="text-right">${Math.round(d.slash24_equiv).toLocaleString()}</td>
@@ -1116,7 +1123,7 @@ function renderIPv4Table(data) {
 
     tbody.innerHTML = data.map(d => `
       <tr>
-        <td><strong>${d.month}</strong></td>
+        <td><strong>${esc(d.month)}</strong></td>
         <td class="text-right">${d.transfers.toLocaleString()}</td>
         <td class="text-right">${d.total_ips.toLocaleString()}</td>
         <td class="text-right">${Math.round(d.slash24_equiv).toLocaleString()}</td>
@@ -1460,7 +1467,7 @@ function renderRecordsTable() {
     const [id, rType, resource, fromOrg, fromEcon, fromRir, toOrg, toEcon, toRir, date, type] = r;
     const formattedDate = date && date.length === 8 ? `${date.slice(0,4)}-${date.slice(4,6)}-${date.slice(6,8)}` : (date || '-');
 
-    let typeTag = `<span class="tag">${type || '-'}</span>`;
+    let typeTag = `<span class="tag">${esc(type || '-')}</span>`;
     const tLower = (type || '').toLowerCase();
     if (tLower === 'unused') typeTag = `<span class="tag tag-unused">Market</span>`;
     else if (tLower === 'm&a') typeTag = `<span class="tag tag-ma">M&A</span>`;
@@ -1468,16 +1475,16 @@ function renderRecordsTable() {
 
     return `
       <tr>
-        <td style="color:var(--text-muted);">${id}</td>
-        <td><strong>${rType.toUpperCase()}</strong></td>
-        <td><code>${resource}</code></td>
-        <td style="max-width:220px; overflow:hidden; text-overflow:ellipsis;" title="${fromOrg}">${fromOrg || '-'}</td>
-        <td class="text-center"><code>${fromEcon || '-'}</code></td>
-        <td class="text-center">${fromRir || '-'}</td>
-        <td style="max-width:220px; overflow:hidden; text-overflow:ellipsis;" title="${toOrg}">${toOrg || '-'}</td>
-        <td class="text-center"><code>${toEcon || '-'}</code></td>
-        <td class="text-center">${toRir || '-'}</td>
-        <td>${formattedDate}</td>
+        <td style="color:var(--text-muted);">${esc(id)}</td>
+        <td><strong>${esc(String(rType || '').toUpperCase())}</strong></td>
+        <td><code>${esc(resource)}</code></td>
+        <td style="max-width:220px; overflow:hidden; text-overflow:ellipsis;" title="${esc(fromOrg)}">${esc(fromOrg || '-')}</td>
+        <td class="text-center"><code>${esc(fromEcon || '-')}</code></td>
+        <td class="text-center">${esc(fromRir || '-')}</td>
+        <td style="max-width:220px; overflow:hidden; text-overflow:ellipsis;" title="${esc(toOrg)}">${esc(toOrg || '-')}</td>
+        <td class="text-center"><code>${esc(toEcon || '-')}</code></td>
+        <td class="text-center">${esc(toRir || '-')}</td>
+        <td>${esc(formattedDate)}</td>
         <td>${typeTag}</td>
       </tr>
     `;
@@ -1609,7 +1616,7 @@ function renderSqlResultTable(columns, values) {
     return;
   }
 
-  thead.innerHTML = `<tr>${columns.map(c => `<th>${c}</th>`).join('')}</tr>`;
+  thead.innerHTML = `<tr>${columns.map(c => `<th>${esc(c)}</th>`).join('')}</tr>`;
 
   const maxDisplayRows = 500;
   const displayValues = values.slice(0, maxDisplayRows);
@@ -1619,7 +1626,7 @@ function renderSqlResultTable(columns, values) {
       ${row.map(val => {
         if (val === null || val === undefined) return '<td style="color:var(--text-muted);">NULL</td>';
         if (typeof val === 'number') return `<td class="text-right">${val.toLocaleString()}</td>`;
-        return `<td>${String(val)}</td>`;
+        return `<td>${esc(val)}</td>`;
       }).join('')}
     </tr>
   `).join('');
